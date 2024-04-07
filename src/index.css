@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .mycontainer{
+        @apply container px-32 py-12 mx-auto;
+    }
+    .myShadow{
+        @apply shadow-[0_0_5px_5px_#1e293b]
+    }
+}
