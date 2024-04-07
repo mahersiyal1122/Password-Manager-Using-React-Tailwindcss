@@ -204,7 +204,7 @@ const Manager_2 = () => {
                                             style={{ "width": "25px", "paddingTop": "5px" }}
                                             trigger="hover">
                                         </lord-icon></span></div>
-                                        <div className='w-1/2 flex items-center gap-2'><span className='text-lg font-bold'>Password:</span>{item.username}<span className='cursor-pointer' onClick={() => { copyText(item.pass) }}><lord-icon
+                                        <div className='w-1/2 flex items-center gap-2'><span className='text-lg font-bold'>Password:</span>{item.pass}<span className='cursor-pointer' onClick={() => { copyText(item.pass) }}><lord-icon
                                             src="https://cdn.lordicon.com/iykgtsbt.json"
                                             colors="primary:#ffffff"
                                             style={{ "width": "25px", "paddingTop": "5px" }}
